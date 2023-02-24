@@ -1,0 +1,11 @@
+.{
+    .name = "opkg",
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .libubox = .{
+            .url = "https://github.com/tauoverpi/libubox-zig-pm/archive/a587c4a4e0bc594a577a885772f83e0da084a318.tar.gz",
+            .hash = "122040144f8d7f434c56e2afc6ed6d2ba63088b76845ff1cff679847a7fb04cbcef2",
+        },
+    },
+}
